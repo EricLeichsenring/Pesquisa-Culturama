@@ -64,6 +64,10 @@ textarea {
     min-height: 100px;
 }
 
+input[type="tel"]{
+    margin-bottom: 0;
+}
+
 input[type="radio"],
 input[type="checkbox"]{
     width: auto;
@@ -81,6 +85,12 @@ input:invalid, select:invalid, textarea:invalid {
 input:valid, select:valid, textarea:valid {
     border-color: green;
 }
+
+small{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
 
 button{
     width: 100px;
